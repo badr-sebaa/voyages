@@ -89,7 +89,8 @@ nav > ul li:hover .sous{
 /*Body*/
 
 main{
-    background-color: coral ;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 /* STYLE POUR LE FOOTER GENERAL */
 .footer-general{
