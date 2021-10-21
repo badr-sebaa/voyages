@@ -146,20 +146,12 @@ main{
     
 }
 
+.texte-image{
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+    display: flex;
+    justify-content: space-evenly;
+    
+}
 
 
 
@@ -175,19 +167,22 @@ main{
     display: flex;
     justify-content: space-evenly;
     background-color: #ffebcd;
+    color: white;
 }
 
 .info-colone{
     display: flex;
     flex-direction: column;
-    background-color: #ffdab9;
+    background-color:#ffebcd;
+    ;
     
 }
 
 
 .liste-rangement{
     display: flex;
-    background-color:  #ffdab9;
+    background-color:#ffebcd;
+    ;
 }
 
 .footer-general ul{
@@ -195,7 +190,7 @@ main{
 }
 
 .bouton-inscription{
-background-color: #faebd7;
+background-color: #ffebcd;
 display: flex;
 justify-content: center ;
 }
