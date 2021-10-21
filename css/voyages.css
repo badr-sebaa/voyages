@@ -88,9 +88,11 @@ nav > ul li:hover .sous{
 }
 /*Body*/
 
+
 main{
     margin-top: 100px;
     margin-bottom: 50px;
+    background-image: url(../images/fond-presentation.jpg);
 }
 
 #citation {
@@ -99,11 +101,11 @@ main{
     font-size: 50px;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background: white;
     margin:10%;
 }
 .citation1 {
     font-size: 30px;
+    color: #ac8853a1;
 
 }
 
@@ -125,13 +127,23 @@ main{
 .table-ville {
     border-collapse: collapse;
     margin:5%;
-    color: #043327;
+    color: #ac8853a1;
 }
 
-#bienvenue {
+.ville{
+
+    width: 50%;
+    height: auto;
+}
+
+.Bienvenue {
     font-size: 160%;
     font-style: italic;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    color: #ac8853a1;
+    
 }
 
 
