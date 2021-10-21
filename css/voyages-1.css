@@ -2,10 +2,7 @@ body
 {
     font-family: sans-serif;
 }
-main
-{
 
-}
 .fond
 {
     background: linear-gradient(rgba(177, 111, 13, 0.363), 10%, rgba(23, 150, 209, 0.562));
@@ -95,10 +92,7 @@ details
     font-size: 15px;
     border-radius: 15px;
 }
-    
-details + details {
 
-}
 
 details[open] {
 min-height: 500px;
