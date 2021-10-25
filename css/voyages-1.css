@@ -42,13 +42,13 @@ article
 {
     align-items: center;
     text-align: center;
-    margin: 30px;
-    font-size: 25px; 
+    margin-left: 100px ;
+    margin-right: 100px ;
     
 }
 .Presentation h1 
 {
-    color: red;
+    color: rgb(255, 230, 0);
     font-size: 40px;
 }
 .imageLA
@@ -198,4 +198,14 @@ div.container1 {
 .zoom:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
+}
+
+p::first-letter
+{
+    text-transform: uppercase;
+    font-size: 200%;
+}
+.text
+{
+    font-size: 20px ;
 }
