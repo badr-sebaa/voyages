@@ -146,13 +146,6 @@ main{
     
 }
 
-.texte-image{
-
-    display: flex;
-    justify-content: space-evenly;
-    
-}
-
 
 
 /* STYLE POUR LE FOOTER GENERAL */
@@ -167,22 +160,19 @@ main{
     display: flex;
     justify-content: space-evenly;
     background-color: #ffebcd;
-    color: white;
 }
 
 .info-colone{
     display: flex;
     flex-direction: column;
-    background-color:#ffebcd;
-    ;
+    background-color: #ffdab9;
     
 }
 
 
 .liste-rangement{
     display: flex;
-    background-color:#ffebcd;
-    ;
+    background-color:  #ffdab9;
 }
 
 .footer-general ul{
@@ -190,7 +180,7 @@ main{
 }
 
 .bouton-inscription{
-background-color: #ffebcd;
+background-color: #faebd7;
 display: flex;
 justify-content: center ;
 }
