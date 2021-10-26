@@ -97,7 +97,7 @@ main{
 
 #citation {
     
-    color:#ac8853a1;
+    color:#add8e6;
     font-size: 50px;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -105,7 +105,7 @@ main{
 }
 .citation1 {
     font-size: 30px;
-    color: #ac8853a1;
+    color: #add8e6;
 
 }
 
@@ -127,7 +127,7 @@ main{
 .table-ville {
     border-collapse: collapse;
     margin:5%;
-    color: #ac8853a1;
+    color: #add8e6;
 }
 
 .ville{
@@ -142,7 +142,7 @@ main{
     font-weight: bold;
     display: flex;
     flex-direction: column;
-    color: #ac8853a1;
+    color: #add8e6;
     
 }
 
@@ -163,20 +163,20 @@ main{
 .horaires-info{
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffebcd;
+    background-color: #e0ffff;
 }
 
 .info-colone{
     display: flex;
     flex-direction: column;
-    background-color: #ffdab9;
+    background-color: #e0ffff;
     
 }
 
 
 .liste-rangement{
     display: flex;
-    background-color:  #ffdab9;
+    background-color:  #e0ffff;
 }
 
 .footer-general ul{
@@ -184,7 +184,7 @@ main{
 }
 
 .bouton-inscription{
-background-color: #faebd7;
+background-color: #e0ffff;
 display: flex;
 justify-content: center ;
 }

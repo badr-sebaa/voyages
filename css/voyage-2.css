@@ -150,11 +150,6 @@ article
     font-size: 25px; 
     
 }
-.Presentation h1 
-{
-    color: red;
-    font-size: 40px;
-}
 .image-carre
 {
     height: 250px;
@@ -304,39 +299,31 @@ div.container1 {
 	transform: scale(1.3);
 }
 
-
-
-
-
-
-
-
     /* STYLE POUR LE FOOTER GENERAL */
-
 .footer-general{
     background-color: rgb(255, 255, 255);
-    display:flex;
-    flex-direction:column;  
-    background-color:rgb(0, 0, 0); 
+    display: flex;
+    flex-direction: column;  
+    background-color: rgb(0, 0, 0); 
 }
 
 .horaires-info{
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffebcd;
+    background-color: #e0ffff;
 }
 
 .info-colone{
     display: flex;
     flex-direction: column;
-    background-color: #ffdab9;
+    background-color: #e0ffff;
     
 }
 
 
 .liste-rangement{
     display: flex;
-    background-color:  #ffdab9;
+    background-color:  #e0ffff;
 }
 
 .footer-general ul{
@@ -344,7 +331,7 @@ div.container1 {
 }
 
 .bouton-inscription{
-background-color: #faebd7;
+background-color: #e0ffff;
 display: flex;
 justify-content: center ;
 }
