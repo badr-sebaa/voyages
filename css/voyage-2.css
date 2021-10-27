@@ -309,6 +309,10 @@ div.container1 {
     align-items: center;
 }
 
+.skyscanner{
+    display: flex;
+    justify-content: center;
+}
 
     /* STYLE POUR LE FOOTER GENERAL */
 .footer-general{
