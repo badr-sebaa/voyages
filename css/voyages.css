@@ -96,18 +96,24 @@ main{
     margin-bottom: 50px;
 }
 
-#citation {
+.citation{
+    background-color: aqua ;
+    border-radius: 15%;
+}
+
+#citation1 {
     
     color:#add8e6;
     font-size: 50px;
     font-style: italic;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin:10%;
+    background-color: aqua;
 }
-.citation1 {
+.citation2 {
     font-size: 30px;
     color: #add8e6;
-
+    background-color: aqua;
 }
 
 .ville{
