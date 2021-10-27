@@ -6,8 +6,9 @@ nav{
     margin: 0 auto;
     top: 0px;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.123);
     border-radius: 20px;
+    background-color: white;
+    z-index: 98;
 }
 
 nav ul{
@@ -25,6 +26,7 @@ nav ul::after{
     content: "";
     display: table;
     clear: both;
+    
 }
 
 nav a{
@@ -76,6 +78,7 @@ nav > ul li:hover .sous{
 {
     height: 50pxpx;
     width: auto;
+    z-index: 99;
 }
 
 .stuck 
@@ -90,7 +93,7 @@ nav > ul li:hover .sous{
 }
 
 
-/*Body*/
+/*Main*/
 
 
 main{
@@ -145,7 +148,6 @@ article
     text-align: center;
     margin: 30px;
     font-size: 25px; 
-    
 }
 .image-carre
 {
@@ -290,11 +292,22 @@ div.container1 {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+
 }
 .zoom:hover img {
 	-webkit-transform: scale(1.3);
 	transform: scale(1.3);
 }
+
+
+.billeterie{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
 
     /* STYLE POUR LE FOOTER GENERAL */
 .footer-general{
