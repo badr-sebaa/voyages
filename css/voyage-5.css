@@ -96,10 +96,16 @@ main{
     margin-bottom: 50px;
 }
 
-.fond
-{
-    background-image: url("../images/rio-2.jpg");
-        
+.image-haut{
+    border-radius: 10%;
+    width: 100%;
+}
+
+.entete{
+    background-color: aqua;
+    font-size: small;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
 }
 
 .selection2
@@ -278,10 +284,10 @@ div.container1 {
     align-items: center;
 }
 
-
-
-
-
+.skyscanner{
+    display: flex;
+    justify-content: center;
+}
 
 
 
