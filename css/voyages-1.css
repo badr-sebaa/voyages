@@ -3,9 +3,10 @@ body
     font-family: sans-serif;
 }
 
-.fond
+.fondl
 {
     background: linear-gradient(rgba(177, 111, 13, 0.363), 10%, rgba(23, 150, 209, 0.562));
+    color: black;
 }
 article
 {
@@ -208,4 +209,5 @@ p::first-letter
 .text
 {
     font-size: 20px ;
+    color: black;
 }

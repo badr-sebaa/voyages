@@ -6,8 +6,9 @@ nav{
     margin: 0 auto;
     top: 0px;
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.123);
     border-radius: 20px;
+    background-color: white;
+    z-index: 98;
 }
 
 nav ul{
@@ -25,6 +26,7 @@ nav ul::after{
     content: "";
     display: table;
     clear: both;
+    
 }
 
 nav a{
@@ -76,6 +78,7 @@ nav > ul li:hover .sous{
 {
     height: 50pxpx;
     width: auto;
+    z-index: 99;
 }
 
 .stuck 
@@ -90,10 +93,7 @@ nav > ul li:hover .sous{
 }
 
 
-
-
-
-/*Body*/
+/*Main*/
 
 
 main{
@@ -148,12 +148,7 @@ article
     text-align: center;
     margin: 30px;
     font-size: 25px; 
-    
-}
-.Presentation h1 
-{
-    color: red;
-    font-size: 40px;
+    color: rgb(174, 207, 196);
 }
 .image-carre
 {
@@ -298,6 +293,7 @@ div.container1 {
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+
 }
 .zoom:hover img {
 	-webkit-transform: scale(1.3);
@@ -305,38 +301,44 @@ div.container1 {
 }
 
 
+.billeterie{
 
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
 
-
-
-
+.skyscanner{
+    display: flex;
+    justify-content: center;
+}
 
     /* STYLE POUR LE FOOTER GENERAL */
-
 .footer-general{
     background-color: rgb(255, 255, 255);
-    display:flex;
-    flex-direction:column;  
-    background-color:rgb(0, 0, 0); 
+    display: flex;
+    flex-direction: column;  
+    background-color: rgb(0, 0, 0); 
 }
 
 .horaires-info{
     display: flex;
     justify-content: space-evenly;
-    background-color: #ffebcd;
+    background-color: #e0ffff;
 }
 
 .info-colone{
     display: flex;
     flex-direction: column;
-    background-color: #ffdab9;
+    background-color: #e0ffff;
     
 }
 
 
 .liste-rangement{
     display: flex;
-    background-color:  #ffdab9;
+    background-color:  #e0ffff;
 }
 
 .footer-general ul{
@@ -344,7 +346,7 @@ div.container1 {
 }
 
 .bouton-inscription{
-background-color: #faebd7;
+background-color: #e0ffff;
 display: flex;
 justify-content: center ;
 }
